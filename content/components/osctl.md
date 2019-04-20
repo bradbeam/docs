@@ -9,8 +9,7 @@ menu:
     weight: 70
 ---
 
-The `osctl` CLI is the client to the `osd` service running on every node.
-With it you can do things like:
+The `osctl` CLI is the client to the [osd](/components/osd) service running on every node. `osctl` should provide enough functionality to be a replacement for typical interactive shell operations. With it you can do things like:
 
 - retrieve container logs
 - restart a service
@@ -19,3 +18,5 @@ With it you can do things like:
 - retrieve kernel logs
 - generate pki resources
 - inject data into node configuration files
+- view running services
+- view node resources
