@@ -5,8 +5,14 @@ draft: false
 ---
 
 In this section, we will step through the configuration of a Talos based Kubernetes cluster.
-There are three major components we will configure:
 
-- `osd` and `osctl`
-- the master nodes
-- the worker nodes
+The major sections of the config are:
+
+- [Debug](/configuration/debug)
+- [Env](/configuration/env)
+- [Files](/configuration/files)
+- [Install](/configuration/install)
+- [Networking](/configuration/networking)
+- [Security](/configuration/security)
+- [Services](/configuration/services)
+- [Version](/configuration/version)
