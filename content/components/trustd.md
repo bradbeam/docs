@@ -1,12 +1,8 @@
 ---
-title: "trustd"
-date: 2018-10-29T19:40:55-07:00
-draft: false
-weight: 40
+title: trustd
 menu:
   main:
-    parent: 'components'
-    weight: 40
+    parent: components
 ---
 
 Security is one of the highest priorities within Talos.
