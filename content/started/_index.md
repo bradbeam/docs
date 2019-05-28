@@ -1,6 +1,6 @@
 ---
-title: "Getting Started"
-weight: 5
+title: Getting Started
+weight: 1
 ---
 
 The quickest way to get started with Talos is to test out the local docker setup. This uses docker compose to bring up a 3 master, 1 worker node environment.
