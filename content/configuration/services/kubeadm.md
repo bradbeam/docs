@@ -46,9 +46,15 @@ services:
       ...
 ```
 
-## CertificateKey
+## InitToken
 
-The certificate key is used for something
+The inittoken should only be provided for one of the master node configuration files. Presence of this token and validity ( token generation time is less than 1 hour old ) denote that this node should bootstrap the Kubernetes cluster. This token is a UUIDv1 token and can be generated via `osctl gen token`.
+
+```yaml
+services:
+  kubeadm:
+    initToken: d4171920-80f1-11e9-aeb1-acde48001122
+```
 
 ## IgnorePreflightErrors
 
